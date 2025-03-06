@@ -46,6 +46,6 @@ public class Main {
         actions.sendKeys(inputField, "Hello, Selenium!").perform();
 
         // Close the browser
-       //  driver.quit();
+        driver.quit();
     }
 }
