@@ -45,7 +45,5 @@ public class Main {
         WebElement inputField = driver.findElement(By.id("email"));
         actions.sendKeys(inputField, "Hello, Selenium!").perform();
 
-        // Close the browser
-       //  driver.quit();
     }
 }
